@@ -36,8 +36,8 @@ int main(){
     for(int i = 0; i < t; i++){
          scanf("%d", &n);   
         //n valores
-        for (int i = 0; i < n; i++){
-            scanf("%d",&arr[i]);
+        for (int j = 0; j < n; j++){
+            scanf("%d",&arr[j]);
         }
         //quantidade de movimentações necessárias
         printf("%d\n", minimoTrocas(arr,n));
